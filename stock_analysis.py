@@ -67,3 +67,24 @@ monthly_average = close_prices.resample("ME").mean()
 
 print("\nMonthly Average Closing Prices:")
 print(monthly_average)
+
+mcd_returns = daily_returns["MCD"]  # McDonald
+
+max_return_date = mcd_returns.idxmax()
+max_return_value = mcd_returns.max()
+
+min_return_date = mcd_returns.idxmin()
+min_return_value = mcd_returns.min()
+
+print("\nMcDonald's Significant Daily Movements:")
+print("Largest Increase Date:", max_return_date)
+print("Largest Increase Return:", max_return_value)
+
+print("Largest Decrease Date:", min_return_date)
+print("Largest Decrease Return:", min_return_value)
+
+print("\nMcDonald's Data Around Q2 Earnings:")
+print(data.loc["2026-08-03":"2026-08-07", [("Close", "MCD"), ("Volume", "MCD")]])
+
+print("\nMcDonald's Returns Around Q2 Earnings:")
+print(daily_returns.loc["2026-08-03":"2026-08-07", "MCD"])
