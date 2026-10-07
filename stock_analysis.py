@@ -13,3 +13,18 @@ data = yf.download(
 )
 
 print(data.head())
+
+print("\nDate Range:")
+print(data.index.min(), "to", data.index.max())
+
+print("\nNumber of Records:")
+print(len(data))
+
+print("\nColumn Names:")
+print(data.columns)
+
+print("\nData Types:")
+print(data.dtypes)
+
+print("\nMissing Values:")
+print(data.isnull().sum())
