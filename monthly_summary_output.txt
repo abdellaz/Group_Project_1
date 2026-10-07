@@ -1,0 +1,146 @@
+Price           Close                          ...   Volume                  
+Ticker           CAKE         MCD        WING  ...     CAKE      MCD     WING
+Date                                           ...                           
+2026-07-01  79.425125  267.528442  174.463074  ...  1153100  3902100  1883900
+2026-07-02  78.966370  278.649384  177.474319  ...  1410400  6871800   977800
+2026-07-06  76.682549  277.527374  170.085785  ...  1299800  6744000   939000
+2026-07-07  77.530251  280.218231  169.716858  ...   824600  3688500   825700
+2026-07-08  76.423248  276.286194  158.010880  ...  1467700  4735900  1840700
+
+[5 rows x 15 columns]
+
+Date Range:
+2026-07-01 00:00:00 to 2026-08-31 00:00:00
+
+Number of Records:
+43
+
+Column Names:
+MultiIndex([( 'Close', 'CAKE'),
+            ( 'Close',  'MCD'),
+            ( 'Close', 'WING'),
+            (  'High', 'CAKE'),
+            (  'High',  'MCD'),
+            (  'High', 'WING'),
+            (   'Low', 'CAKE'),
+            (   'Low',  'MCD'),
+            (   'Low', 'WING'),
+            (  'Open', 'CAKE'),
+            (  'Open',  'MCD'),
+            (  'Open', 'WING'),
+            ('Volume', 'CAKE'),
+            ('Volume',  'MCD'),
+            ('Volume', 'WING')],
+           names=['Price', 'Ticker'])
+
+Data Types:
+Price   Ticker
+Close   CAKE      float64
+        MCD       float64
+        WING      float64
+High    CAKE      float64
+        MCD       float64
+        WING      float64
+Low     CAKE      float64
+        MCD       float64
+        WING      float64
+Open    CAKE      float64
+        MCD       float64
+        WING      float64
+Volume  CAKE        int64
+        MCD         int64
+        WING        int64
+dtype: object
+
+Missing Values:
+Price   Ticker
+Close   CAKE      0
+        MCD       0
+        WING      0
+High    CAKE      0
+        MCD       0
+        WING      0
+Low     CAKE      0
+        MCD       0
+        WING      0
+Open    CAKE      0
+        MCD       0
+        WING      0
+Volume  CAKE      0
+        MCD       0
+        WING      0
+dtype: int64
+
+Daily Percentage Returns:
+Ticker          CAKE       MCD      WING
+Date                                    
+2026-07-01       NaN       NaN       NaN
+2026-07-02 -0.577595  4.156919  1.726007
+2026-07-06 -2.892144 -0.402660 -4.163157
+2026-07-07  1.105469  0.969583 -0.216906
+2026-07-08 -1.427833 -1.403205 -6.897357
+
+Closing Price Statistics:
+
+MCD:
+Count: 43
+Mean: 268.5315431106922
+Median: 268.72991943359375
+Min: 258.2245788574219
+Max: 280.2182312011719
+Standard Deviation: 5.090668888357729
+
+WING:
+Count: 43
+Mean: 132.27287647336027
+Median: 130.01222229003906
+Min: 109.4800033569336
+Max: 177.4743194580078
+Standard Deviation: 19.21112085906254
+
+CAKE:
+Count: 43
+Mean: 97.15281464332757
+Median: 101.1463623046875
+Min: 76.42324829101562
+Max: 117.29000091552734
+Standard Deviation: 14.076995541299922
+
+Daily Return Statistics:
+
+MCD:
+Count: 42
+Mean: -0.042423342376822284
+Median: -0.20286270943009055
+Min: -2.6756461307406276
+Max: 4.156919190743902
+Standard Deviation: 1.4485695727646877
+
+WING:
+Count: 42
+Mean: -1.0389847334052749
+Median: -0.9376202771074538
+Min: -8.246115841573554
+Max: 11.050456181633471
+Standard Deviation: 3.633278875213692
+
+CAKE:
+Count: 42
+Mean: 0.8155989082755729
+Median: 0.5336827959057544
+Min: -4.612502020530873
+Max: 13.627685064709883
+Standard Deviation: 3.202876089236961
+
+Correlation Matrix:
+Ticker      CAKE       MCD      WING
+Ticker                              
+CAKE    1.000000  0.215397  0.262635
+MCD     0.215397  1.000000  0.229934
+WING    0.262635  0.229934  1.000000
+
+Monthly Average Closing Prices:
+Ticker            CAKE         MCD        WING
+Date                                          
+2026-07-31   84.813730  269.256611  147.493250
+2026-08-31  110.079475  267.771948  116.327723
