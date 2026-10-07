@@ -28,3 +28,37 @@ print(data.dtypes)
 
 print("\nMissing Values:")
 print(data.isnull().sum())
+
+close_prices = data["Close"]
+
+daily_returns = close_prices.pct_change() * 100
+
+print("\nDaily Percentage Returns:")
+print(daily_returns.head())
+
+print("\nClosing Price Statistics:")
+
+for ticker in tickers:
+    print(f"\n{ticker}:")
+    print("Count:", close_prices[ticker].count())
+    print("Mean:", close_prices[ticker].mean())
+    print("Median:", close_prices[ticker].median())
+    print("Min:", close_prices[ticker].min())
+    print("Max:", close_prices[ticker].max())
+    print("Standard Deviation:", close_prices[ticker].std())
+
+print("\nDaily Return Statistics:")
+
+for ticker in tickers:
+    print(f"\n{ticker}:")
+    print("Count:", daily_returns[ticker].count())
+    print("Mean:", daily_returns[ticker].mean())
+    print("Median:", daily_returns[ticker].median())
+    print("Min:", daily_returns[ticker].min())
+    print("Max:", daily_returns[ticker].max())
+    print("Standard Deviation:", daily_returns[ticker].std())
+
+correlation_matrix = daily_returns.corr()
+
+print("\nCorrelation Matrix:")
+print(correlation_matrix)
