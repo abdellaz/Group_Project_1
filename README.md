@@ -36,3 +36,29 @@ Sources:
 - [Why is Wingstop stock sliding today? -from investing.com](https://ca.investing.com/news/stock-market-news/form-4-northern-oil--gas-jennifer-s-pomerantz-director-for-30-september-93CH-4876747)
 - [Wingstop (NASDAQ:WING) Misses Q2 CY2026 Revenue Estimates. -from yahoo!finance](https://finance.yahoo.com/markets/stocks/articles/wingstop-nasdaq-wing-misses-q2-122406366.html)
 - [Wingstop Inc. Reports Fiscal Second Quarter Financial Results. -from Wingstop](https://ir.wingstop.com/wingstop-inc-reports-fiscal-second-quarter-financial-results-4/)
+
+Outputs:
+- Wingstop's Significant Daily Movements:
+  Largest Increase Date: 2026-08-14 00:00:00
+  Largest Increase Return: 11.050456181633471
+  Largest Decrease Date: 2026-08-17 00:00:00
+  Largest Decrease Return: -8.246115841573554
+
+- Wingstop's Data Around Q2 Earnings:
+  Price            Close   Volume
+  Ticker            WING     WING
+  Date                           
+  2026-08-03  130.012222  1502800
+  2026-08-04  121.147980  1863400
+  2026-08-05  123.501144  1322700
+  2026-08-06  116.282127  1480200
+  2026-08-07  116.476562  1193000
+
+- Wingstop's Returns Around Q2 Earnings:
+  Date
+  2026-08-03    0.695028
+  2026-08-04   -6.818007
+  2026-08-05    1.942389
+  2026-08-06   -5.845304
+  2026-08-07    0.167210
+  Name: WING, dtype: float64
