@@ -38,6 +38,7 @@ Sources:
 - [Wingstop Inc. Reports Fiscal Second Quarter Financial Results. -from Wingstop](https://ir.wingstop.com/wingstop-inc-reports-fiscal-second-quarter-financial-results-4/)
 
 Outputs:
+```text
 - Wingstop's Significant Daily Movements:
   Largest Increase Date: 2026-08-14 00:00:00
   Largest Increase Return: 11.050456181633471
@@ -62,3 +63,4 @@ Outputs:
   2026-08-06   -5.845304
   2026-08-07    0.167210
   Name: WING, dtype: float64
+```
