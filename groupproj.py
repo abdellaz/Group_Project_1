@@ -1,0 +1,76 @@
+from pathlib import Path
+
+import pandas as pd
+import yfinance as yf
+
+# Cheesecake Factory stock ticker from the beginning of July 2026 through the end of August 2026.
+TICKERS = ["CAKE"]
+START_DATE = "2026-07-01"
+END_DATE = "2026-09-01"
+
+# Using Yahoo Finance to download data for the Cheesecake Factory stock ticker from the beginning 
+# of July 2026 through the end of August 2026. Including high, low, open and close prices as well as volume.
+raw = yf.download(
+    TICKERS,
+    start=START_DATE,
+    end=END_DATE,
+    auto_adjust=True,
+    progress=False,
+)
+if raw is None or raw.empty:
+    raise RuntimeError("No rows returned. Check the internet connection, tickers, and dates.")
+
+print("Requested dates:", START_DATE, "through", END_DATE)
+print("Shape:", raw.shape)
+print("Columns:")
+print(raw.columns)
+print("Data types:")
+print(raw.dtypes)
+print("Missing values:")
+print(raw.isna().sum())
+print(raw)
+
+long = raw.stack(level="Ticker", future_stack=True).rename_axis(["Date", "Ticker"]).reset_index()
+long["Date"] = pd.to_datetime(long["Date"])
+long = long.sort_values(["Ticker", "Date"]).reset_index(drop=True)
+prices = long
+
+# Count, mean, median, min, max, std for closing price and daily
+prices["Daily_Return_Pct"] = prices.groupby("Ticker")["Close"].pct_change() * 100
+
+required_stats = ["count", "mean", "median", "min", "max", "std"]
+stats = prices.groupby("Ticker")[["Close", "Daily_Return_Pct"]].agg(required_stats)
+print("\nDescriptive statistics (Close in dollars, Daily_Return_Pct in percent):")
+print(stats)
+
+return_matrix = prices.pivot(index="Date", columns="Ticker", values="Daily_Return_Pct")
+correlation_matrix = return_matrix.corr()
+print("\nCorrelation matrix of daily returns:")
+print(correlation_matrix)
+
+# Summary statistics for July and August
+monthly_summary = (
+    prices.assign(Month=prices["Date"].dt.to_period("M").dt.to_timestamp())
+    .groupby(["Month", "Ticker"], as_index=False)["Close"]
+    .mean()
+    .rename(columns={"Close": "Average_Close"})
+)
+print("\nMonthly average close:")
+print(monthly_summary)
+
+# Highest return and lowest return days
+print("\nSignificant movements:")
+for ticker, ticker_data in prices.groupby("Ticker"):
+    highest_return = ticker_data.sort_values("Daily_Return_Pct", ascending=False).iloc[0]
+    lowest_return = ticker_data.sort_values("Daily_Return_Pct", ascending=True).iloc[0]
+
+    print(ticker)
+    print("Highest return:")
+    print(highest_return)
+    print("Lowest return:")
+    print(lowest_return)
+
+Path("outputs").mkdir(exist_ok=True)
+stats.to_csv("outputs/descriptive_statistics.csv")
+correlation_matrix.to_csv("outputs/correlation_matrix.csv")
+monthly_summary.to_csv("outputs/monthly_summary.csv", index=False)
