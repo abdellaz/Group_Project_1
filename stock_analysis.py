@@ -198,3 +198,19 @@ plt.ylabel("Indexed price (first observation = 100)")
 plt.tight_layout()
 plt.savefig("charts/normalized_prices.png", dpi=150)
 plt.show()
+
+##chart 2: Significant Movement Period
+prices = close_prices.reset_index().melt(
+    id_vars=["Date"], var_name="Ticker", value_name="Close"
+)
+movement_window = prices[
+    prices["Date"].between("2026-07-27", "2026-08-14")
+]
+movement_pivot = movement_window.pivot(index="Date", columns="Ticker", values="Close")
+movement_pivot.plot(figsize=(10, 6), marker="o")
+plt.title("Price movement during high volatility period (Jul 27 - Aug 14, 2026)")
+plt.xlabel("Date")
+plt.ylabel("Closing Price ($)")
+plt.tight_layout()
+plt.savefig("charts/significant_movement.png", dpi=150)
+plt.show()
