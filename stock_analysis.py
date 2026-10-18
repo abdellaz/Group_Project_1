@@ -214,3 +214,13 @@ plt.ylabel("Closing Price ($)")
 plt.tight_layout()
 plt.savefig("charts/significant_movement.png", dpi=150)
 plt.show()
+
+##chart 3: Daily Returns Distribution
+return_matrix = close_prices.pct_change().dropna() * 100 #Calculate the daily percentage return of the three stocks
+return_matrix.plot.box(figsize=(9, 5))
+plt.title("Daily return distributions by ticker")
+plt.xlabel("Ticker")
+plt.ylabel("Daily return (%)")
+plt.tight_layout()
+plt.savefig("charts/return_distribution.png", dpi=150)
+plt.show()
