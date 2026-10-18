@@ -224,3 +224,17 @@ plt.ylabel("Daily return (%)")
 plt.tight_layout()
 plt.savefig("charts/return_distribution.png", dpi=150)
 plt.show()
+
+##chart 4: Relationship among the three stocks
+plt.figure(figsize=(7, 5))
+plt.scatter(
+    return_matrix["MCD"],
+    return_matrix["WING"],
+    alpha=0.35,
+)
+plt.title("Daily return relationship: MCD vs. WING")
+plt.xlabel("MCD daily return (%)")
+plt.ylabel("WING daily return (%)")
+plt.tight_layout()
+plt.savefig("charts/return_relationship.png", dpi=150)
+plt.show()
