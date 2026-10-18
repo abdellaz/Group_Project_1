@@ -186,3 +186,15 @@ Path("outputs").mkdir(exist_ok=True)
 stats.to_csv("outputs/descriptive_statistics.csv")
 correlation_matrix.to_csv("outputs/correlation_matrix.csv")
 monthly_summary.to_csv("outputs/monthly_summary.csv", index=False)
+
+
+##chart 1: Full-Period Normalized Price Comparison
+import matplotlib.pyplot as plt
+normalized = close_prices.div(close_prices.iloc[0]).mul(100)
+normalized.plot(figsize=(10, 6))
+plt.title("Normalized price performance across the analysis period")
+plt.xlabel("Date")
+plt.ylabel("Indexed price (first observation = 100)")
+plt.tight_layout()
+plt.savefig("charts/normalized_prices.png", dpi=150)
+plt.show()

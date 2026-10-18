@@ -1,0 +1,4 @@
+Price,Close,Close,Close,Close,Close,Close,Daily_Return_Pct,Daily_Return_Pct,Daily_Return_Pct,Daily_Return_Pct,Daily_Return_Pct,Daily_Return_Pct
+,count,mean,median,min,max,std,count,mean,median,min,max,std
+Ticker,,,,,,,,,,,,
+CAKE,43,97.15281464332757,101.1463623046875,76.42324829101562,117.29000091552734,14.07699554129992,42,0.8155989082755727,0.5336827959057544,-4.612502020530873,13.627685064709883,3.2028760892369617
