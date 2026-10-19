@@ -65,7 +65,7 @@ Outputs:
 ## The Cheesecake Factory's Significant Movement
 On the evening of July 28, 2026 Cheesecake Factory released Q2 earnings which did surprisingly well and elicited a positive reaction causing the stock price to increase by %8.2 in one day from opening to close yielding a %13.62 increase from the day prior. 
 
-Just about two weeks later the stock price decreased largely in one day by %5.9, the daily return percentage, which compared the previous day's closing price to the current one is -4.61. 
+Just about two weeks later on August 13 the stock price decreased largely in one day by %5.9, the daily return percentage, which compared the previous day's closing price to the current one is -4.61. 
 
 Nothing specifically related to the company occurred on this day causing the decline, the decreasing stock price was mainly caused by a general consumer sell off. Data showed an unexpected fall in retail sales including reduced foot traffic and lower credit card spending automatically leading many major funds to sell off in a coordinated manner. 
 
