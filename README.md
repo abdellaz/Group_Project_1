@@ -58,6 +58,7 @@ Outputs:
 - Wingstop's Returns Around Q2 Earnings:
   Date
   2026-08-03    0.695028
+```
 
 **## Work Item 6: Visualizations & Analysis**
 - Chart 1: Normalized-Price Performance
