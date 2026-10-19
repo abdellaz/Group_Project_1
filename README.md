@@ -37,7 +37,7 @@ Sources:
 - [Wingstop (NASDAQ:WING) Misses Q2 CY2026 Revenue Estimates. -from yahoo!finance](https://finance.yahoo.com/markets/stocks/articles/wingstop-nasdaq-wing-misses-q2-122406366.html)
 - [Wingstop Inc. Reports Fiscal Second Quarter Financial Results. -from Wingstop](https://ir.wingstop.com/wingstop-inc-reports-fiscal-second-quarter-financial-results-4/)
 
-## The Cheesecake Factory Significant Movement
+## The Cheesecake Factory's Significant Movement
 On the evening of July 28, 2026 Cheesecake Factory released Q2 earnings which did surprisingly well and elicited a positive reaction causing the stock price to increase by %8.2 in one day from opening to close yielding a %13.62 increase from the day prior. 
 
 Just about two weeks later the stock price decreased largely in one day by %5.9, the daily return percentage, which compared the previous day's closing price to the current one is -4.61. 
