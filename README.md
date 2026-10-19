@@ -58,9 +58,20 @@ Outputs:
 - Wingstop's Returns Around Q2 Earnings:
   Date
   2026-08-03    0.695028
-  2026-08-04   -6.818007
-  2026-08-05    1.942389
-  2026-08-06   -5.845304
-  2026-08-07    0.167210
-  Name: WING, dtype: float64
-```
+
+**## Work Item 6: Visualizations & Analysis**
+- Chart 1: Normalized-Price Performance
+![Normalized-Price Performance](charts/normalized_prices.png)
+**Caption:** This line chart tracks the normalized price performance (rebased to 100) for MCD, WING, and CAKE. Across the period, the three stocks show completely different trends: CAKE experienced strong growth, surging from 100 to nearly 140; WING suffered a steep drop, falling toward 62; while MCD remained extremely stable around its starting value of 100.
+
+- Chart 2: High Volatility Window Performance
+![Significant Movement](charts/significant_movement.png)
+**Caption:** This zoomed-in chart focuses on the high-volatility window from July 27 to August 14, 2026. During this three-week period, all three stocks showed frequent daily price swings. CAKE had the most noticeable upward fluctuations, whereas WING continued its downward trend.
+
+- Chart 3: Daily Return Distribution
+![Daily Return Distribution](charts/return_distribution.png)
+**Caption:** This boxplot highlights the distribution and spread of daily percentage returns. MCD has the narrowest box (between -1% and +1%), showing low risk and steady returns. In contrast, WING and CAKE have much wider boxes and visible outliers beyond 10%, indicating higher daily price volatility.
+
+- Chart 4: Daily Return Relationship
+![Daily Return Relationship](charts/return_relationship.png)
+**Caption:** This scatter plot illustrates the co-movement of daily returns between MCD and WING. Most data points cluster near the center (-0.5%, 0.5%), but a positive trend shows that when MCD experiences positive daily returns, WING often moves in the same direction, reflecting the whole restaurant market condition would be influenced together.
