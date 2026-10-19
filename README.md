@@ -37,18 +37,6 @@ Sources:
 - [Wingstop (NASDAQ:WING) Misses Q2 CY2026 Revenue Estimates. -from yahoo!finance](https://finance.yahoo.com/markets/stocks/articles/wingstop-nasdaq-wing-misses-q2-122406366.html)
 - [Wingstop Inc. Reports Fiscal Second Quarter Financial Results. -from Wingstop](https://ir.wingstop.com/wingstop-inc-reports-fiscal-second-quarter-financial-results-4/)
 
-## The Cheesecake Factory's Significant Movement
-On the evening of July 28, 2026 Cheesecake Factory released Q2 earnings which did surprisingly well and elicited a positive reaction causing the stock price to increase by %8.2 in one day from opening to close yielding a %13.62 increase from the day prior. 
-
-Just about two weeks later the stock price decreased largely in one day by %5.9, the daily return percentage, which compared the previous day's closing price to the current one is -4.61. 
-
-Nothing specifically related to the company occurred on this day causing the decline, the decreasing stock price was mainly caused by a general consumer sell off. Data showed an unexpected fall in retail sales including reduced foot traffic and lower credit card spending automatically leading many major funds to sell off in a coordinated manner. 
-
-**Sources:**
-- [Cheesecake Factory Reports Higher Profit, Sales](https://www.wsj.com/business/earnings/cheesecake-factory-reports-higher-profit-sales-bcaad9ad#)
-- [The Cheesecake Factory Reports Results for Second Quarter of Fiscal 2026](https://investors.thecheesecakefactory.com/news-and-events/news-releases/news-release-details/2026/The-Cheesecake-Factory-Reports-Results-for-Second-Quarter-of-Fiscal-2026/default.aspx?utm_source=chatgpt.com)
-- [Stock Of The Day Nearly Doubles This Summer, Poised To Extend Rally](https://www.investors.com/research/ibd-stock-of-the-day/cheesecake-factory-cake-stock-of-the-day/?utm_source=chatgpt.com)
-
 
 Outputs:
 ```text
@@ -72,6 +60,20 @@ Outputs:
   Date
   2026-08-03    0.695028
 ```
+
+
+## The Cheesecake Factory's Significant Movement
+On the evening of July 28, 2026 Cheesecake Factory released Q2 earnings which did surprisingly well and elicited a positive reaction causing the stock price to increase by %8.2 in one day from opening to close yielding a %13.62 increase from the day prior. 
+
+Just about two weeks later the stock price decreased largely in one day by %5.9, the daily return percentage, which compared the previous day's closing price to the current one is -4.61. 
+
+Nothing specifically related to the company occurred on this day causing the decline, the decreasing stock price was mainly caused by a general consumer sell off. Data showed an unexpected fall in retail sales including reduced foot traffic and lower credit card spending automatically leading many major funds to sell off in a coordinated manner. 
+
+**Sources:**
+- [Cheesecake Factory Reports Higher Profit, Sales](https://www.wsj.com/business/earnings/cheesecake-factory-reports-higher-profit-sales-bcaad9ad#)
+- [The Cheesecake Factory Reports Results for Second Quarter of Fiscal 2026](https://investors.thecheesecakefactory.com/news-and-events/news-releases/news-release-details/2026/The-Cheesecake-Factory-Reports-Results-for-Second-Quarter-of-Fiscal-2026/default.aspx?utm_source=chatgpt.com)
+- [Stock Of The Day Nearly Doubles This Summer, Poised To Extend Rally](https://www.investors.com/research/ibd-stock-of-the-day/cheesecake-factory-cake-stock-of-the-day/?utm_source=chatgpt.com)
+
 
 **## Work Item 6: Visualizations & Analysis**
 - Chart 1: Normalized-Price Performance
