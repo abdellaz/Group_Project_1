@@ -75,7 +75,7 @@ Nothing specifically related to the company occurred on this day causing the dec
 - [Stock Of The Day Nearly Doubles This Summer, Poised To Extend Rally](https://www.investors.com/research/ibd-stock-of-the-day/cheesecake-factory-cake-stock-of-the-day/?utm_source=chatgpt.com)
 
 
-**## Work Item 6: Visualizations & Analysis**
+## Work Item 6: Visualizations & Analysis
 - Chart 1: Normalized-Price Performance
 ![Normalized-Price Performance](charts/normalized_prices.png)
 **Caption:** This line chart tracks the normalized price performance (rebased to 100) for MCD, WING, and CAKE. Across the period, the three stocks show completely different trends: CAKE experienced strong growth, surging from 100 to nearly 140; WING suffered a steep drop, falling toward 62; while MCD remained extremely stable around its starting value of 100.
