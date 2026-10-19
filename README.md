@@ -67,7 +67,7 @@ On the evening of July 28, 2026 Cheesecake Factory released Q2 earnings which di
 
 Just about two weeks later on August 13 the stock price decreased largely in one day by %5.9, the daily return percentage, which compared the previous day's closing price to the current one is -4.61. 
 
-Nothing specifically related to the company occurred on this day causing the decline, the decreasing stock price was mainly caused by a general consumer sell off. Data showed an unexpected fall in retail sales including reduced foot traffic and lower credit card spending automatically leading many major funds to sell off in a coordinated manner. 
+Nothing specifically related to the company occurred on this day causing the decline, the decreasing stock price was mainly caused by an industry-wide selloff in casual dining and consumer discretionary stocks. Data showed an unexpected fall in retail sales including reduced foot traffic and lower credit card spending automatically leading many major funds to sell off in a coordinated manner. 
 
 **Sources:**
 - [Cheesecake Factory Reports Higher Profit, Sales](https://www.wsj.com/business/earnings/cheesecake-factory-reports-higher-profit-sales-bcaad9ad#)
