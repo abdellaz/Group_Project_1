@@ -91,3 +91,8 @@ Nothing specifically related to the company occurred on this day causing the dec
 - Chart 4: Daily Return Relationship
 ![Daily Return Relationship](charts/return_relationship.png)
 **Caption:** This scatter plot illustrates the co-movement of daily returns between MCD and WING. Most data points cluster near the center (-0.5%, 0.5%), but a positive trend shows that when MCD experiences positive daily returns, WING often moves in the same direction, reflecting the whole restaurant market condition would be influenced together.
+
+## Limitations of the Analysis 
+- We analyzed these three companies' stock price fluctuations occurring only in a two month period out of the year, the analysis is of a limited time period and any long term trends may have been missed. 
+- While all three of these companies are considered casual dining their business approaches differ and contain different operating models, the three companies may not be a perfectly exact comparison.
+- The evaluation of a stock price may not account for other factors including dividends or other market factors which can influence the analysis results. 
