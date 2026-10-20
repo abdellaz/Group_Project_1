@@ -88,6 +88,7 @@ print(data.loc["2026-08-03":"2026-08-07", [("Close", "MCD"), ("Volume", "MCD")]]
 
 print("\nMcDonald's Returns Around Q2 Earnings:")
 print(daily_returns.loc["2026-08-03":"2026-08-07", "MCD"])
+#This helped me connect the real-world business event with the actual stock data.
 
 wing_returns = daily_returns["WING"]  # Wingstop
 
