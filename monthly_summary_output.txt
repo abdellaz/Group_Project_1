@@ -144,3 +144,6 @@ Ticker            CAKE         MCD        WING
 Date                                          
 2026-07-31   84.813730  269.256611  147.493250
 2026-08-31  110.079475  267.771948  116.327723
+
+This table shows the monthly average closing prices for CAKE, MCD, and WING in July and August 2026.
+From July to August, CAKE increased, WING decreased, and MCD remained relatively stable.
