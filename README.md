@@ -59,8 +59,12 @@ Outputs:
 - Wingstop's Returns Around Q2 Earnings:
   Date
   2026-08-03    0.695028
+  2026-08-04   -6.818007
+  2026-08-05    1.942389
+  2026-08-06   -5.845304
+  2026-08-07    0.167210
+  Name: WING, dtype: float64
 ```
-
 
 ## The Cheesecake Factory's Significant Movement
 On the evening of July 28, 2026 Cheesecake Factory released Q2 earnings which did surprisingly well and elicited a positive reaction causing the stock price to increase by %8.2 in one day from opening to close yielding a %13.62 increase from the day prior. 
