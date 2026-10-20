@@ -96,3 +96,14 @@ Nothing specifically related to the company occurred on this day causing the dec
 - We analyzed these three companies' stock price fluctuations occurring only in a two month period out of the year, the analysis is of a limited time period and any long term trends may have been missed. 
 - While all three of these companies are considered casual dining their business approaches differ and contain different operating models, the three companies may not be a perfectly exact comparison.
 - The evaluation of a stock price may not account for other factors including dividends or other market factors which can influence the analysis results. 
+
+## Installing the Project 
+- git clone https://github.com/abdellaz/Group_Project_1.git cd Group_Project_1
+## Install Dependancies
+- pip install yfinance pandas
+## Run the Analysis
+- python cake_analysis.py
+- python stock_analysis.py
+- python mcd_analysis.py
+## Outcome
+- These scripts should perform the analysis for the assigned stocks, CAKE (The Cheesecake Factory), WING (Wingstop), and MCD (McDonald's).
