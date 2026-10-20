@@ -147,3 +147,9 @@ Date
 
 This table shows the monthly average closing prices for CAKE, MCD, and WING in July and August 2026.
 From July to August, CAKE increased, WING decreased, and MCD remained relatively stable.
+
+McDonald's Significant Daily Movements:
+Largest Increase Date: 2026-07-02
+Largest Increase Return: 4.16%
+Largest Decrease Date: 2026-08-17
+Largest Decrease Return: -2.68%
