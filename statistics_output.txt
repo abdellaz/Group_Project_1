@@ -138,3 +138,6 @@ Ticker
 CAKE    1.000000  0.215397  0.262635
 MCD     0.215397  1.000000  0.229934
 WING    0.262635  0.229934  1.000000
+
+The correlations are all positive, ranging from about 0.21 to 0.26, which indicates weak positive relationships.
+This means the three stocks sometimes move in the same direction, but their movements are not strongly related.
